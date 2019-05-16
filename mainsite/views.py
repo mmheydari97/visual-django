@@ -39,4 +39,3 @@ def homepage(request):
     script, div = components(plot)
     content = {'script': script, 'div': div}
     return render_to_response("mainsite/base.html", content)
-
